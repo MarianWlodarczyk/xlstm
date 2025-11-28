@@ -76,3 +76,5 @@ def template_test_recurrent_vs_chunkwise(
     out_steps_np = out_steps.cpu().detach().numpy()
 
     np.testing.assert_allclose(out_steps_np, out_np, atol=4e-3, rtol=5e-2, err_msg="out_steps and out do not match")
+
+**//from xlstm.xlstm_large.model import xLSTMLargeConfig, xLSTMLarge//**
